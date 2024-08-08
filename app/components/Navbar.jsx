@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(false);
+  const handleCloseMenu = () => setMenuToggle(false)
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-opacity-100 border-b border-[#33353F] mx-auto bg-[#121212]">
@@ -46,7 +47,7 @@ const Navbar = () => {
           <ul className="flex flex-col items-center">
             {navlinks.map((link, index) => (
               <li className="text-lg mb-1" key={index}>
-                <NavLink href={link.path} title={link.title} />
+                <NavLink handleCloseMenu={handleCloseMenu} href={link.path} title={link.title} />
               </li>
             ))}
           </ul>
