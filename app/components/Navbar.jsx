@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { navlinks } from "../constants/data";
-import NavLink from "./NavLink";
+import NavLink from "./Navlink";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
