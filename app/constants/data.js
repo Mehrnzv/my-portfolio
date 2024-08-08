@@ -53,7 +53,7 @@ export const ProjectData = [
     id:2,
     title: "Movie application",
     stack: 'React js, Redux, Sass',
-    desc : 'This website enables you to search for movies and TV shows, explore their details, and sort them by genre or order. You can also watch trailers of the movies.',
+    desc : 'You can search for movies and TV shows, explore their details, and filter them by genre, popularity, and more. You can also watch trailers of the movies.',
     image: '/images/projects/Design2.png',
     path: 'https://github.com/Mehrnzv/Movie-app'
   },
@@ -61,7 +61,7 @@ export const ProjectData = [
     id:3,
     title: "E-commerce application",
     stack: 'React js, Redux, Tailwind CSS',
-    desc : 'This website enables you to explore products, sort them by category and rating, add items to your cart, and create your own wishlist.',
+    desc : 'This website enables you to explore products, filter them by category, price and rating, add items to your cart, and create your own wishlist.',
     image: '/images/projects/Design3.png',
     path: 'https://github.com/Mehrnzv/Shop-wave'
   },

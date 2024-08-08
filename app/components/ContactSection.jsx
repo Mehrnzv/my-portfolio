@@ -23,18 +23,21 @@ const ContactSection = () => {
             <MdMail size={30} />
           </Link>
           <Link
+            target="blank"
             className="hover:text-purple-400"
             href="https://github.com/Mehrnzv"
           >
             <GrGithub size={30} />
           </Link>
           <Link
+            target="blank"
             className="hover:text-purple-400"
             href="https://www.linkedin.com/in/mehrnzvaziri/"
           >
             <GrLinkedin size={25} />
           </Link>
           <Link
+            target="blank"
             className="hover:text-purple-400"
             href="https://www.instagram.com/mehrnzv"
           >
