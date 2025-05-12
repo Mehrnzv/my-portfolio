@@ -10,6 +10,7 @@ const getOutfit = Outfit({
 const getOvo = Ovo({
   variable: "--font-ovo",
   weight: ["400"],
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
