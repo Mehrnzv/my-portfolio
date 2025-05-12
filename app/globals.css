@@ -1,10 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #11001F;
+  --font-outfit: var(--font-outfit);
+  --font-ovo: var(--font-ovo);
+  --shadow-customBlack: 4px 4px 0px 0px #000000;
+  --shadow-customWhite: 4px 4px 0px 0px #fff;
+}
 
 * {
-  font-family: "Roboto", sans-serif;
-  color-scheme: dark;
+  font-family: var(--font-outfit), sans-serif;
 }
